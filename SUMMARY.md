@@ -62,3 +62,13 @@
   * [Example Coin](c-customitems/examples/example-coin.md)
   * [Plugin Setup](c-customitems/examples/plugin-setup.md)
   * [Event Example](c-customitems/examples/event-example.md)
+
+## Prerelease Content
+
+* [Intro](prerelease-content/intro.md)
+* [API Rework](prerelease-content/api-rework/README.md)
+  * [Plugin Setup](prerelease-content/api-rework/plugin-setup.md)
+  * [Example Grenade](prerelease-content/api-rework/example-grenade.md)
+  * [Example Keycard](prerelease-content/api-rework/example-keycard.md)
+  * [Example Weapon](prerelease-content/api-rework/example-weapon.md)
+  * [Example Armor](prerelease-content/api-rework/example-armor.md)
