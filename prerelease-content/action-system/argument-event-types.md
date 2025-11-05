@@ -1,6 +1,6 @@
-# Event Argument Types
+# Argument Event Types
 
-The `ArgumentType` enum serves as a comprehensive map for all player-related events in the framework. Each member of this enum corresponds to a specific event and is decorated with an `[EventType]` attribute, which links it to the concrete `EventArgs` class you will receive in your event handlers.
+The `ArgumentType` enum serves as a comprehensive map for all player-related events in the framework. Each member of this enum corresponds to a specific event.
 
 This provides a clear and strongly-typed way to work with a wide variety of player actions and state changes.
 
