@@ -1,5 +1,6 @@
 # Example Grenade
 
+{% code expandable="true" %}
 ```csharp
 using InventorySystem;
 using InventorySystem.Items.Firearms;
@@ -96,3 +97,4 @@ namespace UncomplicatedCustomItems.Examples
     }
 }
 ```
+{% endcode %}

@@ -1,5 +1,6 @@
 # Example Keycard
 
+{% code expandable="true" %}
 ```csharp
 using UncomplicatedCustomItems.API.Attributes;
 using UncomplicatedCustomItems.API.Features;
@@ -72,3 +73,4 @@ namespace UncomplicatedCustomItems.Examples
     }
 }
 ```
+{% endcode %}

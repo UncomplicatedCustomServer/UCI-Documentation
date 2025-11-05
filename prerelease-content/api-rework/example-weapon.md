@@ -1,5 +1,6 @@
 # Example Weapon
 
+{% code expandable="true" %}
 ```csharp
 using System.Collections.Generic;
 using UncomplicatedCustomItems.API.Attributes;
@@ -82,3 +83,4 @@ namespace UncomplicatedCustomItems.Examples
     }
 }
 ```
+{% endcode %}

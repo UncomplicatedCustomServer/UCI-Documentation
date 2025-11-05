@@ -1,5 +1,6 @@
 # Example Armor
 
+{% code expandable="true" %}
 ```csharp
 using CustomPlayerEffects;
 using LabApi.Events.Arguments.PlayerEvents;
@@ -93,3 +94,4 @@ namespace UncomplicatedCustomItems.Examples
     }
 }
 ```
+{% endcode %}
