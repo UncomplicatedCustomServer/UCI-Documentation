@@ -72,3 +72,6 @@
   * [Example Keycard](prerelease-content/api-rework/example-keycard.md)
   * [Example Weapon](prerelease-content/api-rework/example-weapon.md)
   * [Example Armor](prerelease-content/api-rework/example-armor.md)
+* [Action System](prerelease-content/action-system/README.md)
+  * [Event Argument Types](prerelease-content/action-system/event-argument-types.md)
+  * [How to use Actions](prerelease-content/action-system/how-to-use-actions.md)
