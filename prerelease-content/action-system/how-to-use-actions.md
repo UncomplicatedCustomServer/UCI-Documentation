@@ -276,7 +276,7 @@ Actions:
 Id: 205
 Name: Gambler's Medkit
 Type: Medkit
-...
+
 Arguments:
   Used: 'action "Gambler Effect"'
 ```
