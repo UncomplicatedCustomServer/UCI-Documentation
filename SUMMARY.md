@@ -26,6 +26,7 @@
 * [Custom Data](api/custom-data/README.md)
   * [Adrenaline](api/custom-data/adrenaline.md)
   * [Armor](api/custom-data/armor.md)
+  * [Candy](api/custom-data/candy.md)
   * [Explosive Grenade](api/custom-data/explosive-grenade.md)
   * [Flash Grenade](api/custom-data/flash-grenade.md)
   * [Flashlight](api/custom-data/flashlight.md)
@@ -48,7 +49,6 @@
     * [SCP-1576](api/custom-data/scp-item/scp-1576.md)
     * [SCP-127](api/custom-data/scp-item/scp-127.md)
     * [SCP-1509](api/custom-data/scp-item/scp-1509.md)
-  * [Candy](api/custom-data/candy.md)
 
 ## Troubleshooting
 
