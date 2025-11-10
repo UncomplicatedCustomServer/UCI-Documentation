@@ -25,3 +25,4 @@ icon: sitemap
 | `MicroHID`          | A high-energy SCP weapon capable of disintegration.             |
 | `ParticleDisruptor` | A special firearm that deals high damage or effects.            |
 | `Light`             | An item that emits light, like a flashlight or lantern.         |
+| `Candy`             | A SCP-330 item                                                  |
