@@ -16,3 +16,4 @@ icon: calendar-exclamation
 | `Noclip`     | Triggered when a player presses their noclip key |
 | `Detonation` | Triggered when the item detonates.               |
 | `SSSS`       | Server Specific Settings trigger.                |
+| `Inspect`    | Triggered when the user inspects the item        |
