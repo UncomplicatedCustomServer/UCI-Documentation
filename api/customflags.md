@@ -4,12 +4,6 @@ icon: flag
 
 # CustomFlags
 
-## Custom Item Flags Settings Documentation
-
-This document describes the various flag settings available for custom items. Each flag corresponds to a gameplay behavior or effect.
-
-***
-
 ### ItemGlowSettings
 
 * **CustomFlag:** ItemGlow
