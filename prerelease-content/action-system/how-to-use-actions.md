@@ -20,7 +20,7 @@ Name: Super Heal Potion
 Description: A potion that heals you and tells everyone.
 Actions:
   - 'if {Player.Health} < 100 then Heal {Player.UserId} 25 & Broadcast 5 "{Player.DisplayName} used a Super Heal Potion!"'
-  - '{Player.Stamina} += 50.0'
+  - '{Player.StaminaRemaining} += 50.0'
 ```
 
 Each string in the `Actions` list is a command that will be executed in order. Let's break down the features.
