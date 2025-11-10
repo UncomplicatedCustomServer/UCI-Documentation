@@ -59,8 +59,8 @@ If a placeholder resolves to a collection of objects (like a list of all players
 
 **Example:**
 
-* `{Server.Players.Random.DisplayName}`: Gets the display name of a random player on the server.
-* `{Server.Players.Count}`: Gets the total number of players.
+* `{Player.ReadyList.Random.DisplayName}`: Gets the display name of a random player on the server.
+* `{Player.ReadyList.Count}`: Gets the total number of players.
 
 #### 3. Collection Indexing & Predicates
 
@@ -73,8 +73,8 @@ You can select a specific item from a collection by its index or by a property v
 
 **Examples:**
 
-* `{Server.Players[0].DisplayName}`: Gets the name of the first player in the list.
-* `{Server.Players[RoleType="Scp173"].UserId}`: Gets the User ID of the first player who is SCP-173.
+* `{Player.ReadyList[0].DisplayName}`: Gets the name of the first player in the list.
+* `{Player.ReadyList[RoleType="Scp173"].UserId}`: Gets the User ID of the first player who is SCP-173.
 
 ***
 
@@ -144,7 +144,7 @@ You can directly change the properties of objects using assignment operators.
 ```yaml
 Actions:
   - '{Player.Health} = {Player.MaxHealth}' # Sets health to its maximum value
-  - '{Player.Stamina} += 50' # Adds 50 stamina
+  - '{Player.StaminaRemaining} += 50' # Adds 50 stamina
   - '{Player.DisplayName} = "The Chosen One"' # Changes the player's display name
 ```
 
