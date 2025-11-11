@@ -4,6 +4,10 @@ icon: circle-play
 
 # Intro
 
+{% hint style="danger" %}
+There is major changes in the CustomItemAPI in UCI 4. Use [This](../prerelease-content/api-rework/) for up-to-date information
+{% endhint %}
+
 Creating `CustomItems` in C# expands the capabilities of your custom content beyond what the **UncomplicatedCustomItems (UCI)** framework provides out of the box. By implementing your logic in C#, you gain full control over item behavior, interaction, and integration with other plugins or systems.
 
 ### Features:
@@ -35,3 +39,4 @@ You can hook into server events (like deaths, shooting, or player joins) using E
 ### Jump in
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><span data-gb-custom-inline data-tag="emoji" data-code="1f4cb">📋</span></h4></td><td><strong>Examples</strong></td><td>Examples to create your first C# CustomItem</td><td></td><td></td><td><a href="examples/">examples</a></td></tr></tbody></table>
+
