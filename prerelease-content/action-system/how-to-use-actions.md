@@ -231,7 +231,7 @@ Actions:
   - 'after 5s then {Player}::SetPosition(savedPos)'
 ```
 
-_Note: The variable `savedPos` only exists for this specific trigger. It is not saved globally._
+> _Note: The variable `savedPos` only exists for this specific trigger. It is not saved globally._
 
 #### 4. Delayed Actions
 
