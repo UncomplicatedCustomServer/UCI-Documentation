@@ -7,8 +7,11 @@
 **Parameters:**
 
 * `life_steal_amount` — Base amount used in healing calculation.
-* `life_steal_percentage` — Percentage to apply to the amount to compute healed health.\
-  &#xNAN;_&#x48;ealedAmount = life\_steal\_amount \* life\_steal\_percentage_
+* `life_steal_percentage` — Percentage to apply to the amount to compute healed health.
+
+{% hint style="info" %}
+_HealedAmount = life\_steal\_amount \* life\_steal\_percentage_
+{% endhint %}
 
 **Example Yaml context:**
 
