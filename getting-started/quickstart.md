@@ -25,7 +25,7 @@ layout:
 
 [GitHub Repository](https://github.com/UncomplicatedCustomServer/UncomplicatedCustomItems)
 
-
+[UCSC Discord](https://discord.gg/5StRGu8EJV)
 
 ***
 
