@@ -1,9 +1,5 @@
 # ToolGun
 
-## ToolGun
-
-**Filename suggestion:** `toolgun.md`
-
 **Description**\
 Give the ToolGun APICustomItem to a target player or yourself.
 
