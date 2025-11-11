@@ -26,6 +26,8 @@
   * [HumeShield](api/customflagsettings/humeshield.md)
   * [MERSpawn](api/customflagsettings/merspawn.md)
   * [AmmoRegen](api/customflagsettings/ammoregen.md)
+  * [ItemShot](api/customflagsettings/itemshot.md)
+  * [SwitchRoleOnUse](api/customflagsettings/switchroleonuse.md)
 * [Enums](api/enums/README.md)
   * [Internal](api/enums/internal/README.md)
     * [CustomFlags](api/enums/internal/customflags.md)
