@@ -41,7 +41,7 @@ icon: flag
 
 [**Cluster**](../../customflagsettings/cluster.md)**,**&#x20;
 
-**SwitchRoleOnUse,**&#x20;
+[**SwitchRoleOnUse**](../../customflagsettings/switchroleonuse.md)**,**&#x20;
 
 [**DieOnDrop**](../../customflagsettings/dieondrop.md)**,**&#x20;
 
@@ -71,6 +71,6 @@ icon: flag
 
 [**AmmoRegen**](../../customflagsettings/ammoregen.md)**,**&#x20;
 
-**ItemShot,**&#x20;
+[**ItemShot**](../../customflagsettings/itemshot.md)**,**&#x20;
 
-**ShootItems**
+[**ShootItems**](../../customflagsettings/itemshot.md)
