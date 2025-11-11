@@ -1,24 +1,12 @@
 ---
-description: ⚠ Prerelease Content ⚠
 icon: candy
 ---
 
 # Candy
 
-### Class Definition
-
-```csharp
-public class CandyData : Data, ICandyData
-{
-    public virtual CandyKindID CandyType { get; set; }
-    public virtual string EatingMessage { get; set; }
-    public virtual float EatingMessageDuration { get; set; }
-    public virtual bool DestroyOnUse { get; set; }
-    public virtual float Chance { get; set; }
-    public virtual bool ApplyEffects { get; set; }
-    public virtual bool AllowSpawningAsItem { get; set; }
-}
-```
+{% hint style="danger" %}
+This is Pre-Release content!
+{% endhint %}
 
 ### Properties
 
