@@ -1,38 +1,76 @@
 ---
-description: A enum used to configure additional behaviors for CustomItems.
+description: >-
+  A enum used to configure additional behaviors for CustomItems. Values that
+  have links are CustomFlags that have their own specific settings.
 icon: flag
 ---
 
 # CustomFlags
 
-### Enum Values
+**None,**&#x20;
 
-| Name                     | Description                                                               |
-| ------------------------ | ------------------------------------------------------------------------- |
-| `None`                   | No flags are set.                                                         |
-| `DoNotTriggerTeslaGates` | Prevents Tesla gates from triggering when the item holder passes through. |
-| `LifeSteal`              | Steals health from targets when dealing damage.                           |
-| `InfiniteAmmo`           | Grants the item infinite ammo.                                            |
-| `DieOnUse`               | Instantly kills the user upon using the item.                             |
-| `WorkstationBan`         | Prevents the item from being used at workstations.                        |
-| `ItemGlow`               | Causes the item to glow (visual effect).                                  |
-| `EffectWhenUsed`         | Applies a specified effect when the item is used.                         |
-| `EffectShot`             | Applies a specified effect to targets hit by the item.                    |
-| `EffectWhenEquiped`      | Applies an effect when the item is equipped.                              |
-| `NoCharge`               | Jailbirds wont allow charging.                                            |
-| `CustomSound`            | Plays a custom sound when used or equipped.                               |
-| `ExplosiveBullets`       | Bullets explode on impact.                                                |
-| `ToolGun`                | ToolGun.                                                                  |
-| `SpawnItemWhenDetonated` | Spawns an item when this one detonates.                                   |
-| `Cluster`                | Allows for cluster grenade.                                               |
-| `SwitchRoleOnUse`        | Changes the user's role when the item is used.                            |
-| `DieOnDrop`              | Instantly kills the player if the item is dropped.                        |
-| `VaporizeKills`          | Vaporizes targets killed with the item.                                   |
-| `CantDrop`               | Prevents the player from dropping the item.                               |
-| `ChangeAppearanceOnKill` | Changes appearance upon killing a target.                                 |
-| `Disguise`               | Disguises the player.                                                     |
-| `Craftable`              | Enables the item to be used in custom crafting.                           |
-| `HealOnKill`             | Heals the player after killing a target.                                  |
-| `Capybara`               | Capybara.                                                                 |
-| `SingleFire`             | Restricts firing to single-shot mode.                                     |
+**DoNotTriggerTeslaGates,**&#x20;
 
+[**LifeSteal**](../../customflagsettings/lifesteal.md)**,**&#x20;
+
+**InfiniteAmmo,**&#x20;
+
+[**DieOnUse**](../../customflagsettings/dieonuse.md)**,**&#x20;
+
+**WorkstationBan,**&#x20;
+
+[**ItemGlow**](../../customflagsettings/itemglow.md)**,**&#x20;
+
+[**EffectWhenUsed**](../../customflagsettings/effect.md)**,**&#x20;
+
+[**EffectShot**](../../customflagsettings/effect.md)**,**&#x20;
+
+[**EffectWhenEquiped**](../../customflagsettings/effect.md)**,**&#x20;
+
+**NoCharge,**&#x20;
+
+[**CustomAudio**](../../customflagsettings/customsound.md)**,**&#x20;
+
+[**CustomSound**](../../customflagsettings/customsound.md)**,**&#x20;
+
+[**ExplosiveBullets**](../../customflagsettings/explosivebullets.md)**,**&#x20;
+
+**ToolGun,**&#x20;
+
+[**SpawnItemWhenDetonated**](../../customflagsettings/spawnitemwhendetonated.md)**,**&#x20;
+
+[**Cluster**](../../customflagsettings/cluster.md)**,**&#x20;
+
+**SwitchRoleOnUse,**&#x20;
+
+[**DieOnDrop**](../../customflagsettings/dieondrop.md)**,**&#x20;
+
+**VaporizeKills,**&#x20;
+
+[**CantDrop**](../../customflagsettings/cantdrop.md)**,**&#x20;
+
+[**Craftable**](../../customflagsettings/craftable.md)**,**&#x20;
+
+[**HealOnKill**](../../customflagsettings/healonkill.md)**,**&#x20;
+
+**Capybara,**&#x20;
+
+**SingleFire,**&#x20;
+
+**DistruptorTracer,**&#x20;
+
+[**Disguise**](../../customflagsettings/disguise.md)**,**&#x20;
+
+[**HumeShield**](../../customflagsettings/humeshield.md)**,**&#x20;
+
+**TantrumOnUse,**&#x20;
+
+**Tantrum,**&#x20;
+
+[**MERSpawn**](../../customflagsettings/merspawn.md)**,**&#x20;
+
+[**AmmoRegen**](../../customflagsettings/ammoregen.md)**,**&#x20;
+
+**ItemShot,**&#x20;
+
+**ShootItems**
