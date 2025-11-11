@@ -42,6 +42,7 @@
     * [CandyType](api/enums/external/candytype.md)
     * [RoomName](api/enums/external/roomname.md)
     * [FacilityZone](api/enums/external/facilityzone.md)
+    * [AttachmentName](api/enums/external/attachmentname.md)
 * [Spawning](api/spawning/README.md)
   * [Tips & Examples](api/spawning/tips-and-examples.md)
   * [SpawnSettings](api/spawning/spawnsettings.md)

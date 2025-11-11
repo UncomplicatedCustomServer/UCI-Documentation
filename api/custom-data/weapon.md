@@ -9,19 +9,20 @@ icon: gun
 
 **Properties**
 
-| Property                | Type     | Description                                        |
-| ----------------------- | -------- | -------------------------------------------------- |
-| `Damage`                | `float`  | The damage of the ammo.                            |
-| `MaxBarrelAmmo`         | `int`    | The maximum number of ammunitions in the barrel.   |
-| `MaxAmmo`               | `int`    | The maximum number of ammunitions.                 |
-| `MaxMagazineAmmo`       | `int`    | The maximum number of ammunitions in the magazine. |
-| `AmmoDrain`             | `int`    | The amount of ammunition drained per shot.         |
-| `Penetration`           | `float`  | The penetration of the firearm.                    |
-| `Inaccuracy`            | `float`  | The inaccuracy of the firearm.                     |
-| `AimingInaccuracy`      | `float`  | The inaccuracy of the firearm while aiming.        |
-| `DamageFalloffDistance` | `float`  | How quickly the damage drops over distance.        |
-| `Attachments`           | `string` | The weapon attachments.                            |
-| `EnableFriendlyFire`    | `bool`   | Whether the item can damage teammates.             |
+| Property                                             | Type     | Description                                        |
+| ---------------------------------------------------- | -------- | -------------------------------------------------- |
+| `Damage`                                             | `float`  | The damage of the ammo.                            |
+| `MaxBarrelAmmo`                                      | `int`    | The maximum number of ammunitions in the barrel.   |
+| `MaxAmmo`                                            | `int`    | The maximum number of ammunitions.                 |
+| `MaxMagazineAmmo`                                    | `int`    | The maximum number of ammunitions in the magazine. |
+| `AmmoDrain`                                          | `int`    | The amount of ammunition drained per shot.         |
+| `Penetration`                                        | `float`  | The penetration of the firearm.                    |
+| `Inaccuracy`                                         | `float`  | The inaccuracy of the firearm.                     |
+| `AimingInaccuracy`                                   | `float`  | The inaccuracy of the firearm while aiming.        |
+| `DamageFalloffDistance`                              | `float`  | How quickly the damage drops over distance.        |
+| [`Attachments`](../enums/external/attachmentname.md) | `string` | The weapon attachments.                            |
+| `EnableFriendlyFire`                                 | `bool`   | Whether the item can damage teammates.             |
+|                                                      |          |                                                    |
 
 **Example:**
 
