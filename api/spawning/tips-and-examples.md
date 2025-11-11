@@ -26,7 +26,6 @@ spawn:
       x: 0
       y: 0
       z: 0
-      w: 1
 
   - chance: 30
     locker_settings:

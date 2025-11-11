@@ -7,7 +7,7 @@ A single spawn rule describing _one_ possible way an item may spawn (chance, coo
 
 * `chance` — `float` (0–100) — Percent chance this `SpawnData` entry will result in a spawn. Default: `30`.
 * `coords` — `Vector3` — Explicit coordinates for spawn. If non-zero/used, these coordinates take precedence over dynamic spawn/zone lists.
-* `rotation` — `Vector4` — Rotation for the spawned item. (Vector4 used in code; treated as quaternion components.)
+* `rotation` — `Vector3` — Rotation for the spawned item.
 * `locker_settings` — [`LockerSpawn`](lockerspawn.md) — Locker-specific spawn configuration (enable, locker type, room, zone, chamber, offset).
 * `dynamic_spawn` — `array[`[`DynamicSpawn`](dynamicspawn.md)`]` — Room + coordinates pairs where the item is allowed to spawn. Used when `coords` is not specified.
 * `zones` — `array[`[`FacilityZone`](../enums/external/facilityzone.md)`]` — Facility zones (enum) where the item may spawn. Used when both `coords` and `dynamic_spawn` are empty.
@@ -37,7 +37,6 @@ spawn:
       x: 0
       y: 0
       z: 0
-      w: 1
     replace_existing_pickup: false
 
   - chance: 25
