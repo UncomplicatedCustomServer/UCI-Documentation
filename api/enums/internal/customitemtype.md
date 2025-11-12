@@ -9,20 +9,20 @@ icon: sitemap
 
 ### Enum Values
 
-| Name                | Description                                                     |
-| ------------------- | --------------------------------------------------------------- |
-| `Item`              | A generic custom item. No specific behavior is implied.         |
-| `Keycard`           | Functions as a keycard, allowing access to doors or systems.    |
-| `Armor`             | Provides protection when worn, reducing incoming damage.        |
-| `Weapon`            | A standard weapon that deals damage.                            |
-| `Medikit`           | A healing item that restores health when used.                  |
-| `Painkillers`       | Temporarily heals over time; commonly used for small HP boosts. |
-| `Jailbird`          | SCP-style stun baton weapon. May apply shock effects.           |
-| `ExplosiveGrenade`  | A throwable explosive grenade.                                  |
-| `FlashGrenade`      | A flashbang grenade that blinds enemies.                        |
-| `Adrenaline`        | Boosts stamina and health; used for quick recovery.             |
-| `SCPItem`           | Denotes an SCP-classified item.                                 |
-| `MicroHID`          | A high-energy SCP weapon capable of disintegration.             |
-| `ParticleDisruptor` | A special firearm that deals high damage or effects.            |
-| `Light`             | An item that emits light, like a flashlight or lantern.         |
-| `Candy`             | A SCP-330 item                                                  |
+| Name                                                           | Description                                                     |
+| -------------------------------------------------------------- | --------------------------------------------------------------- |
+| [`Item`](../../custom-data/item.md)                            | A generic custom item. No specific behavior is implied.         |
+| [`Keycard`](../../custom-data/keycard.md)                      | Functions as a keycard, allowing access to doors or systems.    |
+| [`Armor`](../../custom-data/armor.md)                          | Provides protection when worn, reducing incoming damage.        |
+| [`Weapon`](../../custom-data/weapon.md)                        | A standard weapon that deals damage.                            |
+| [`Medikit`](../../custom-data/medikit.md)                      | A healing item that restores health when used.                  |
+| [`Painkillers`](../../custom-data/painkillers.md)              | Temporarily heals over time; commonly used for small HP boosts. |
+| [`Jailbird`](../../custom-data/jailbird.md)                    | SCP-style stun baton weapon. May apply shock effects.           |
+| [`ExplosiveGrenade`](../../custom-data/explosive-grenade.md)   | A throwable explosive grenade.                                  |
+| [`FlashGrenade`](../../custom-data/flash-grenade.md)           | A flashbang grenade that blinds enemies.                        |
+| [`Adrenaline`](../../custom-data/adrenaline.md)                | Boosts stamina and health; used for quick recovery.             |
+| [`SCPItem`](../../custom-data/scp-item/)                       | Denotes an SCP-classified item.                                 |
+| [`MicroHID`](../../custom-data/microhid.md)                    | A high-energy SCP weapon capable of disintegration.             |
+| [`ParticleDisruptor`](../../custom-data/particle-disruptor.md) | A special firearm that deals high damage or effects.            |
+| [`Light`](../../custom-data/flashlight.md)                     | An item that emits light, like a flashlight or lantern.         |
+| [`Candy`](../../custom-data/candy.md)                          | A SCP-330 item                                                  |
