@@ -6,8 +6,8 @@
 
 **Parameters:**
 
-* `effect_event` — The event that triggers the effect (e.g., `EffectWhenUsed`).
-* `effect` — Which effect to apply (e.g., `Flashed`).
+* `effect_event` — The event that triggers the effect (`EffectWhenUsed`, `EffectShot`, or `EffectWhenEquiped`).
+* [`effect`](../enums/external/effects.md) — Which effect to apply (e.g., `Flashed`).
 * `effect_intensity` — Intensity/strength of the applied effect.
 * `effect_duration` — How long the effect lasts (seconds).
 * `add_duration_if_active` — If `true`, adding the effect while it’s active increases the duration instead of replacing it.
