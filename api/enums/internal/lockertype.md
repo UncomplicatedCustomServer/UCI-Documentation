@@ -1,3 +1,7 @@
+---
+icon: door-closed
+---
+
 # LockerType
 
 * RifleRack
