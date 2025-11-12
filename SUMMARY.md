@@ -58,6 +58,7 @@
     * [RoomName](api/enums/external/roomname.md)
     * [FacilityZone](api/enums/external/facilityzone.md)
     * [AttachmentName](api/enums/external/attachmentname.md)
+    * [Effects](api/enums/external/effects.md)
 * [Spawning](api/spawning/README.md)
   * [Tips & Examples](api/spawning/tips-and-examples.md)
   * [SpawnSettings](api/spawning/spawnsettings.md)
