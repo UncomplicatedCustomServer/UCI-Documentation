@@ -1,0 +1,5 @@
+# LightShadows
+
+**None,**\
+**Hard,**\
+**Soft**
