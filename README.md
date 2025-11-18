@@ -20,6 +20,10 @@ layout:
 
 ## Introduction
 
+{% hint style="danger" %}
+Only UCI 4 is supported on SCP:SL version 14.2.2 You can download it from our Discord: [https://discord.gg/5StRGu8EJV](https://discord.gg/5StRGu8EJV)
+{% endhint %}
+
 Welcome to the UncomplicatedCustomItems! This framework is designed to empower server owners to create and CustomItems with ease, without the need for any coding.
 
 ### Features
