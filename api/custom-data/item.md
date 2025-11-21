@@ -26,7 +26,9 @@ icon: pencil
 ```yaml
 CustomItemType: Item
 CustomData:
-  event: Use
+CustomItemType: Item
+CustomData:
+- event: Use
   command: "say A custom item was used!"
   cool_down: 5.0
   console_message: "Custom item used by a player."
