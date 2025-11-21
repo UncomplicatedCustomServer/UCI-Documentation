@@ -23,11 +23,8 @@ icon: pencil
 
 **Example:**
 
-```yaml
-CustomItemType: Item
-CustomData:
-CustomItemType: Item
-CustomData:
+<pre class="language-yaml"><code class="lang-yaml"><strong>CustomItemType: Item
+</strong>CustomData:
 - event: Use
   command: "say A custom item was used!"
   cool_down: 5.0
@@ -37,4 +34,4 @@ CustomData:
   hint_message: "You used the special item."
   hint_duration: 2.5
   destroy_after_use: true
-```
+</code></pre>
