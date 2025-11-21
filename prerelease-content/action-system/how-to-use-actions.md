@@ -6,6 +6,10 @@ description: 'Note: The properties shown here may not be real properties'
 
 ## Using the Action System
 
+{% hint style="warning" %}
+The Action System is based on LabApi, regardless of whether you're using the Exiled version of UCI.
+{% endhint %}
+
 The UncomplicatedCustomItems (UCI) plugin includes a powerful, text-based action system that allows you to create complex and dynamic behaviors for your custom items and events without writing any C# code. This guide will walk you through the syntax and features of this system.
 
 ### Introduction
