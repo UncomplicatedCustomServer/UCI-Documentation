@@ -16,7 +16,8 @@ icon: explosion
 | `SurfaceDistanceIntensifier` | `float` | How much the flash grenade's effect is intensified when it explodes on the surface. |
 | `FuseTime`                   | `float` | The duration of the fuse.                                                           |
 | `PinPullTime`                | `float` | The time it takes to pull the pin.                                                  |
-| `Repickable`                 | `bool`  | Whether players can pick up the grenade after it has been thrown.                   |
+| `ExplodeOnImpact`            | `bool`  | Whether or not the grenade will explode when it impacts another object              |
+| `Repickable`                 | `bool`  | Determines if the grenade explodes upon impacting another object.                   |
 
 **Example:**
 
@@ -28,5 +29,6 @@ CustomData:
   surface_distance_intensifier: 10.0
   fuse_time: 2.5
   pin_pull_time: 0.5
+  explode_on_impact: true
   repickable: true
 ```
