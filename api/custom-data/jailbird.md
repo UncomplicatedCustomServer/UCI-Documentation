@@ -1,31 +1,28 @@
 ---
-description: >-
-  The `JailbirdData` class is used for custom items of type `Jailbird`. It
-  allows you to customize the properties of jailbird items.
 icon: sword
 ---
 
 # Jailbird
 
-**Properties**
+### Properties
 
-| Property        | Type    | Description                                             |
-| --------------- | ------- | ------------------------------------------------------- |
-| `MeleeDamage`   | `float` | The amount of damage dealt with a melee hit.            |
-| `ChargeDamage`  | `float` | The amount of damage dealt with a charge hit.           |
-| `FlashDuration` | `float` | The duration of the `Flashed` effect on being hit.      |
-| `Radius`        | `float` | The radius of the jailbird's hit registration.          |
-| `TotalCharges`  | `int`   | The number of times the item has been charged and used. |
+| Property        | Type                                                          | Description                                                  |
+| --------------- | ------------------------------------------------------------- | ------------------------------------------------------------ |
+| `MeleeDamage`   | `float`                                                       | The amount of damage dealt with a Jailbird melee hit.        |
+| `ChargeDamage`  | `float`                                                       | The amount of damage dealt with a Jailbird charge hit.       |
+| `FlashDuration` | `float`                                                       | The duration in seconds that the effect is applied when hit. |
+| `Radius`        | `float`                                                       | The radius of the Jailbird's hit register.                   |
+| `WearState`     | [`JailbirdWearState`](../enums/external/jailbirdwearstate.md) | The current of the wear on the Jailbird.                     |
 
-**Example:**
+### Example
 
 ```yaml
 CustomItemType: Jailbird
 CustomData:
-  melee_damage: 10.0
-  charge_damage: 30.0
-  flash_duration: 3.0
-  radius: 2.0
-  total_charges: 5
-  destroy_after_use: true
+  melee_damage: 3
+  charge_damage: 3
+  flash_duration: 3
+  radius: 3
+  wear_state: Healthy
 ```
+

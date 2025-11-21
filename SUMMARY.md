@@ -67,6 +67,7 @@
     * [LightShadows](api/enums/external/lightshadows.md)
     * [LightShape](api/enums/external/lightshape.md)
     * [LightType](api/enums/external/lighttype.md)
+    * [JailbirdWearState](api/enums/external/jailbirdwearstate.md)
 * [Spawning](api/spawning/README.md)
   * [Tips & Examples](api/spawning/tips-and-examples.md)
   * [SpawnSettings](api/spawning/spawnsettings.md)
