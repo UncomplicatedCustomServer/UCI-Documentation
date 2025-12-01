@@ -99,6 +99,7 @@
     * [SCP-1576](api/custom-data/scp-item/scp-1576.md)
     * [SCP-127](api/custom-data/scp-item/scp-127.md)
     * [SCP-1509](api/custom-data/scp-item/scp-1509.md)
+    * [SCP-268](api/custom-data/scp-item/scp-268.md)
 
 ## Troubleshooting
 
