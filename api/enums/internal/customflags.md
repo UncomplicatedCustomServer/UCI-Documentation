@@ -59,7 +59,8 @@ icon: flag
 
 **DistruptorTracer,**&#x20;
 
-[**Disguise**](../../customflagsettings/disguise.md)**,**&#x20;
+[**Disguise**](../../customflagsettings/disguise.md)**,** \
+**ChangeDisguiseOnKill**,
 
 [**HumeShield**](../../customflagsettings/humeshield.md)**,**&#x20;
 
