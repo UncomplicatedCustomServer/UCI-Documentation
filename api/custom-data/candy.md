@@ -4,10 +4,6 @@ icon: candy
 
 # Candy
 
-{% hint style="danger" %}
-This is Pre-Release content!
-{% endhint %}
-
 ### Properties
 
 The following table details each property available in the `CandyData` configuration.

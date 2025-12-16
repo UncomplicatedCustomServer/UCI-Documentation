@@ -5,7 +5,7 @@ icon: circle-play
 # Intro
 
 {% hint style="danger" %}
-There are major changes in the CustomItemsAPI in UCI 4. Use [This](../prerelease-content/api-rework/) for up-to-date information
+There are major changes in the CustomItemsAPI in UCI 4. Use [This](/broken/pages/aapmZmeFnuZi3pYaOCgF) for up-to-date information
 {% endhint %}
 
 Creating `CustomItems` in C# expands the capabilities of your custom content beyond what the **UncomplicatedCustomItems (UCI)** framework provides out of the box. By implementing your logic in C#, you gain full control over item behavior, interaction, and integration with other plugins or systems.

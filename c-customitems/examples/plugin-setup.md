@@ -38,13 +38,11 @@ namespace Example
         public override void OnEnabled()
         {
             Instance = this;
-            PlayerEvent.DroppedItem += Handler.OnOwnerDroppedItem;
             base.OnEnabled();
         }
 
         public override void OnDisabled()
         {
-            PlayerEvent.DroppedItem -= Handler.OnOwnerDroppedItem;
             base.OnDisabled();
         }
     }

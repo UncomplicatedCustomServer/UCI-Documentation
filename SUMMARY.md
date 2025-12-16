@@ -24,6 +24,9 @@
     * [DevTag](api/commands/user-commands/devtag.md)
     * [Info](api/commands/user-commands/info.md)
     * [Use](api/commands/user-commands/use.md)
+* [Action System](api/action-system/README.md)
+  * [Argument Event Types](api/action-system/argument-event-types.md)
+  * [How to use Actions](api/action-system/how-to-use-actions.md)
 * [CustomFlagSettings](api/customflagsettings/README.md)
   * [ItemGlow](api/customflagsettings/itemglow.md)
   * [LifeSteal](api/customflagsettings/lifesteal.md)
@@ -112,19 +115,12 @@
 
 * [Intro](c-customitems/intro.md)
 * [Examples](c-customitems/examples/README.md)
-  * [Example Coin](c-customitems/examples/example-coin.md)
   * [Plugin Setup](c-customitems/examples/plugin-setup.md)
-  * [Event Example](c-customitems/examples/event-example.md)
+  * [Example Grenade](c-customitems/examples/example-grenade.md)
+  * [Example Keycard](c-customitems/examples/example-keycard.md)
+  * [Example Weapon](c-customitems/examples/example-weapon.md)
+  * [Example Armor](c-customitems/examples/example-armor.md)
 
 ## Prerelease Content
 
 * [Intro](prerelease-content/intro.md)
-* [API Rework](prerelease-content/api-rework/README.md)
-  * [Plugin Setup](prerelease-content/api-rework/plugin-setup.md)
-  * [Example Grenade](prerelease-content/api-rework/example-grenade.md)
-  * [Example Keycard](prerelease-content/api-rework/example-keycard.md)
-  * [Example Weapon](prerelease-content/api-rework/example-weapon.md)
-  * [Example Armor](prerelease-content/api-rework/example-armor.md)
-* [Action System](prerelease-content/action-system/README.md)
-  * [Argument Event Types](prerelease-content/action-system/argument-event-types.md)
-  * [How to use Actions](prerelease-content/action-system/how-to-use-actions.md)
