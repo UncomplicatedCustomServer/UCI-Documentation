@@ -38,7 +38,10 @@ spawn:
   - chance: 20
     dynamic_spawn:
     - room: Lcz914
-      coords: { x: 2, y: 1, z: -1 }
+      coords:
+        x: 2
+        y: 1
+        z: -1
     zones:
     - Entrance
     replace_existing_pickup: true
