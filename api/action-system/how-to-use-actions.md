@@ -282,7 +282,12 @@ Name: Gambler's Medkit
 Type: Medkit
 
 Arguments:
-  Used: 'action "Gambler Effect"'
+  OnUsedItem: 'action "Gambler Effect"'
+  
+  # Multi-line example
+  OnChangedItem: |
+    after 250ms Player::Damage(1, "Recoil", "FunnyGun");
+    Log FunnyGun equiped by {Player.Nickname};
 ```
 
 When a player uses the "Gambler's Medkit", it triggers the `Used` event, which in turn executes the "Gambler Effect" action. This action then runs the conditional logic to either heal or damage the player.
