@@ -2,15 +2,15 @@
 description: 'Note: The properties shown here may not be real properties'
 ---
 
-# How to use Actions
+# How to use arguments
 
 ## Using the Action System
 
 {% hint style="warning" %}
-The Action System is based on LabApi, regardless of whether you're using the Exiled version of UCI.
+The Action System is built on LabAPI, regardless of whether you are using the Exiled version of UCI. This does **not** mean it is limited to the LabAPI framework properties from both Exiled and LabAPI can be used interchangeably, regardless of which framework you are using. However, the events that trigger actions are based on LabAPI and therefore rely on LabAPI properties.
 {% endhint %}
 
-The UncomplicatedCustomItems (UCI) plugin includes a powerful, text-based action system that allows you to create complex and dynamic behaviors for your custom items and events without writing any C# code. This guide will walk you through the syntax and features of this system.
+The UncomplicatedCustomItems (UCI) plugin includes a powerful, text-based action system that lets you create complex, dynamic behaviors for your custom items and events without writing any C# code. This guide will walk you through the syntax and features of this system.
 
 ### Introduction
 

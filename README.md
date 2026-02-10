@@ -18,6 +18,10 @@ layout:
 
 # Welcome
 
+{% hint style="info" %}
+This Wiki is based on version 4.1.0 of UncomplicatedCustomItems any older or newer versions might have changes that are not reflected in this wiki.
+{% endhint %}
+
 ## Introduction
 
 Welcome to the UncomplicatedCustomItems! This framework is designed to empower server owners to create and CustomItems with ease, without the need for any coding.
