@@ -154,3 +154,6 @@
   * [VaporizeKills](prerelease-content/custommodules/vaporizekills.md)
   * [WorkstationBan](prerelease-content/custommodules/workstationban.md)
   * [WorkstationBanHintOverride](prerelease-content/custommodules/workstationbanhintoverride.md)
+* [Commands](prerelease-content/commands/README.md)
+  * [Admin](prerelease-content/commands/admin/README.md)
+    * [Backup](prerelease-content/commands/admin/backup.md)
