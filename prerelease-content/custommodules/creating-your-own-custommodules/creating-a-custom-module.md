@@ -242,11 +242,11 @@ public class AmmoRegen : CustomModuleBase
 Once registered, your module can be referenced in any custom item's YAML config:
 
 ```yaml
-CustomModules:
+custom_modules:
   AmmoRegen:
-    - RegenDelay: 2.0
-      RegenInterval: 0.5
-      AmmoPerInterval: 1
+    - regen_delay: 2.0
+      regen_interval: 0.5
+      ammo_per_interval: 1
 ```
 
 The key must match the module's `Name` property exactly (case-insensitive).
