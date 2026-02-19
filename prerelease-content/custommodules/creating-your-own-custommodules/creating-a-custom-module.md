@@ -142,10 +142,12 @@ You can also override the following for additional control:
 Modules are discovered automatically at startup if they are in a loaded plugin assembly. If you need to register manually (e.g. from your plugin's `OnEnabled`), use:
 
 ```csharp
-CustomModuleManager.RegisterCustomModule<MyCustomModule>();
+public override void Enable()
+{
+    Instance = this;
+    CustomModuleManager.RegisterCustomModule<MyCustomModule>(this);
+}
 ```
-
-This is typically used when your module is defined in a separate plugin rather than the main assembly.
 
 ***
 
