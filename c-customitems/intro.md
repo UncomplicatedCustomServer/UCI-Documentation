@@ -23,7 +23,7 @@ To create a C# CustomItem:
 
 1. Install [Visual Studio](https://visualstudio.microsoft.com/) or [Rider](https://www.jetbrains.com/rider/).
 2. Reference UCI in your plugin project.
-3. Create a class that implements `CustomItem`.
+3. Create a class that implements `APICustomItem`.
 4. Add the `PluginCustomItem` Attribute.
 
 ### LabAPI/Exiled Events
