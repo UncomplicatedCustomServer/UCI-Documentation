@@ -133,6 +133,7 @@
   * [PickupHintOverride](prerelease-content/custommodules/pickuphintoverride.md)
   * [EquipHintOverride](prerelease-content/custommodules/equiphintoverride.md)
   * [AmmoRegen](prerelease-content/custommodules/ammoregen.md)
+  * [BurstFire](prerelease-content/custommodules/burstfire.md)
   * [CantDrop](prerelease-content/custommodules/cantdrop.md)
   * [🐀 Capybara](prerelease-content/custommodules/capybara.md)
   * [Cluster](prerelease-content/custommodules/cluster.md)
