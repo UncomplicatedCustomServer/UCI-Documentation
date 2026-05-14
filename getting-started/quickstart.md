@@ -1,5 +1,4 @@
 ---
-description: A fast setup for SCP:SL server owners to fully enable custom items using UCI.
 icon: bolt
 ---
 
