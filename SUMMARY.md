@@ -125,8 +125,8 @@
 
 * [Intro](prerelease-content/intro.md)
 * [CustomModules](prerelease-content/custommodules/README.md)
-  * [Creating your own CustomModule](prerelease-content/custommodules/creating-your-own-custommodule/README.md)
-    * [Creating a Custom Module](prerelease-content/custommodules/creating-your-own-custommodule/creating-a-custom-module.md)
+  * [Create your own CustomModule](prerelease-content/custommodules/create-your-own-custommodule/README.md)
+    * [Creating a Custom Module](prerelease-content/custommodules/create-your-own-custommodule/creating-a-custom-module.md)
   * [ItemGlow](prerelease-content/custommodules/itemglow.md)
   * [InfiniteAmmo](prerelease-content/custommodules/infiniteammo.md)
   * [DistruptorTracer](prerelease-content/custommodules/distruptortracer.md)
