@@ -85,13 +85,15 @@ public override void OnAdded(SummonedCustomItem item)
 }
 ```
 
-> **Note:** Always validate and warn when an argument cannot be parsed. This helps server owners diagnose configuration mistakes quickly.
+{% hint style="info" %}
+Always validate and warn when an argument cannot be parsed. This helps server owners diagnose configuration mistakes quickly.
+{% endhint %}
 
 ***
 
 ### Step 4: Register and Unregister Events
 
-Override `RegisterEvents` and `UnregisterEvents` to subscribe your logic to game events:
+Override `RegisterEvents` and `UnregisterEvents` To subscribe to your logic to game events:
 
 ```csharp
 public override void RegisterEvents()
@@ -246,9 +248,9 @@ Once registered, your module can be referenced in any custom item's YAML config:
 ```yaml
 custom_modules:
   AmmoRegen:
-    - regen_delay: 2.0
-      regen_interval: 0.5
-      ammo_per_interval: 1
+  - regen_delay: 2.0
+    regen_interval: 0.5
+    ammo_per_interval: 1
 ```
 
 The key must match the module's `Name` property exactly (case-insensitive).
