@@ -21,7 +21,7 @@ As of version 4.0.0, UncomplicatedCustomItems (UCI) is fully based on LabAPI. Th
 ### Installation
 
 1. Get the [latest release](https://github.com/UncomplicatedCustomServer/UncomplicatedCustomItems/releases) and download `UncomplicatedCustomItems-FRAMEWORK.dll`.
-2. Place the DLL into your server’s `EXILED/Plugins` / `LabAPI/Plugins` folder.
+2. Place the DLL into your server’s `EXILED/Plugins` or `LabAPI/Plugins` folder.
 3. Restart your SCP:SL server to load the plugin.
 
 ***
