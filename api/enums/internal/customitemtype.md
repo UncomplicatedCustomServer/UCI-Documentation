@@ -21,7 +21,7 @@ icon: sitemap
 | [`ExplosiveGrenade`](../../custom-data/explosive-grenade.md)   | A throwable explosive grenade.                                  |
 | [`FlashGrenade`](../../custom-data/flash-grenade.md)           | A flashbang grenade that blinds enemies.                        |
 | [`Adrenaline`](../../custom-data/adrenaline.md)                | Boosts stamina and health; used for quick recovery.             |
-| [`SCPItem`](../../custom-data/scp-item/)                       | Denotes an SCP-classified item.                                 |
+| [`SCPItem`](../../custom-data/scp-items/)                      | Denotes an SCP-classified item.                                 |
 | [`MicroHID`](../../custom-data/microhid.md)                    | A high-energy SCP weapon capable of disintegration.             |
 | [`ParticleDisruptor`](../../custom-data/particle-disruptor.md) | A special firearm that deals high damage or effects.            |
 | [`Light`](../../custom-data/flashlight.md)                     | An item that emits light, like a flashlight or lantern.         |

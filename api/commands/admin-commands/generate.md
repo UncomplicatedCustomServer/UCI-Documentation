@@ -4,7 +4,7 @@
 Generate a new custom item file/config in the plugin’s file system using the given parameters.
 
 **Command / Invocation**\
-`uci generate <id> <Name> <ItemType> <CustomItemType> <Description>`&#x20;
+`uci generate <id> <Name> <ItemType> <CustomItemType> <Description>`
 
 **Visible args**\
 `Id, Name, ItemType, CustomItemType, Description`
@@ -23,6 +23,6 @@ Requires at least 5 arguments. The first argument must be a valid unsigned integ
 
 **Behavior notes**
 
-* Validates the item id and the enum values for `ItemType` and `CustomItemType`.
+* Validates the item id and the enum values for [`ItemType`](../../enums/external/itemtype.md) and [`CustomItemType`](../../enums/internal/customitemtype.md).
 * Calls the plugin FileConfig to actually create the new custom item.
 * Returns success/failure with info about the generated item.

@@ -9,16 +9,16 @@ icon: flashlight
 
 **Properties**
 
-| Property         | Type           | Description                                                                                          |
-| ---------------- | -------------- | ---------------------------------------------------------------------------------------------------- |
-| `HexColor`       | `string`       | The hexadecimal color of the light.                                                                  |
-| `LightType`      | `LightType`    | The type of light. Available values are: `Spot`, `Directional`, `Point`, `Area`, `Rectangle`, `Disc` |
-| `Intensity`      | `float`        | The intensity of the light.                                                                          |
-| `ShadowType`     | `LightShadows` | The type of shadows. Available values are: `None`, `Hard`, `Soft`                                    |
-| `ShadowStrength` | `float`        | The strength of the shadows.                                                                         |
-| `Range`          | `float`        | The range of the light in meters.                                                                    |
-| `SpotLightAngle` | `float`        | The angle of the spotlight.                                                                          |
-| `Shape`          | `LightShape`   | The shape of the light if it's a spotlight.                                                          |
+| Property         | Type                                                | Description                                                                                          |
+| ---------------- | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `HexColor`       | `string`                                            | The hexadecimal color of the light.                                                                  |
+| `LightType`      | [`LightType`](../enums/external/lighttype.md)       | The type of light. Available values are: `Spot`, `Directional`, `Point`, `Area`, `Rectangle`, `Disc` |
+| `Intensity`      | `float`                                             | The intensity of the light.                                                                          |
+| `ShadowType`     | [`LightShadows`](../enums/external/lightshadows.md) | The type of shadows. Available values are: `None`, `Hard`, `Soft`                                    |
+| `ShadowStrength` | `float`                                             | The strength of the shadows.                                                                         |
+| `Range`          | `float`                                             | The range of the light in meters.                                                                    |
+| `SpotLightAngle` | `float`                                             | The angle of the spotlight.                                                                          |
+| `Shape`          | [`LightShape`](../enums/external/lightshape.md)     | The shape of the light if it's a spotlight.                                                          |
 
 **Example:**
 

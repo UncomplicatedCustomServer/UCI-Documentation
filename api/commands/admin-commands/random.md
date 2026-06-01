@@ -1,7 +1,7 @@
 # Random
 
 **Description**\
-Give a random normal `ItemType`, a random `CustomItem`, or either to the command sender.
+Give a random normal [`ItemType`](../../enums/external/itemtype.md), a random `CustomItem`, or either to the command sender.
 
 **Command / Invocation**\
 `uci random <Item|CustomItem|Both>`
@@ -23,5 +23,5 @@ Give a random normal `ItemType`, a random `CustomItem`, or either to the command
 **Behavior notes**
 
 * Requires an in-game player (sender must be a player).
-* Picks a random entry from `Enum.GetNames(typeof(ItemType))` or `CustomItem.List`.
+* Picks a random entry from [`ItemType`](../../enums/external/itemtype.md) or `CustomItem.List`.
 * When `Both` is selected, combines both lists and then resolves to custom vs normal and gives the item accordingly.

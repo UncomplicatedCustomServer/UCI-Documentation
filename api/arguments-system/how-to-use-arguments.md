@@ -124,6 +124,8 @@ Actions:
   - 'if {Player.Zone} == HeavyContainment then Broadcast 5 "You are in the right zone!" & AddItem {Player.UserId} KeycardO5 else Broadcast 5 "You are in the wrong zone!" & Damage {Player.UserId} 10 "Magic"'
 ```
 
+In this example, `HeavyContainment` is a [`FacilityZone`](../enums/external/facilityzone.md) value and `KeycardO5` is an [`ItemType`](../enums/external/itemtype.md) value.
+
 ***
 
 ### Modifying Properties (Assignments)

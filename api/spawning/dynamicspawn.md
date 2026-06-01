@@ -5,7 +5,7 @@ List of specific room + coordinate pairs where the item may spawn. Useful when y
 
 **Parameters**
 
-* `room` — `string` — Room identifier/name (e.g., `"Lcz914"`).
+* `room` — [`RoomName`](../enums/external/roomname.md) — Room identifier/name (e.g., `"Lcz914"`).
 * `coords` — `Vector3` — Local coordinates inside the specified room.
 
 **Example Yaml context**

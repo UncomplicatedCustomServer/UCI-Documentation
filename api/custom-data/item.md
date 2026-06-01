@@ -9,19 +9,21 @@ icon: pencil
 
 **Properties**
 
-| Property            | Type         | Description                                                    |
-| ------------------- | ------------ | -------------------------------------------------------------- |
-| `Event`             | `ItemEvents` | The event that triggers the item's action.                     |
-| `Command`           | `string`     | The command to be executed when the event is fired.            |
-| `CoolDown`          | `float`      | The delay after the event is fired.                            |
-| `ConsoleMessage`    | `string`     | The message to be sent to the console when the event is fired. |
-| `BroadcastMessage`  | `string`     | The message to be broadcast when the event is fired.           |
-| `BroadcastDuration` | `ushort`     | The duration of the broadcast.                                 |
-| `HintMessage`       | `string`     | The message to be shown as a hint when the event is fired.     |
-| `HintDuration`      | `float`      | The duration of the hint.                                      |
-| `DestroyAfterUse`   | `bool`       | Whether the item should be destroyed after use.                |
+| Property            | Type                                            | Description                                                    |
+| ------------------- | ----------------------------------------------- | -------------------------------------------------------------- |
+| `Event`             | [`ItemEvents`](../enums/internal/itemevents.md) | The event that triggers the item's action.                     |
+| `Command`           | `string`                                        | The command to be executed when the event is fired.            |
+| `CoolDown`          | `float`                                         | The delay after the event is fired.                            |
+| `ConsoleMessage`    | `string`                                        | The message to be sent to the console when the event is fired. |
+| `BroadcastMessage`  | `string`                                        | The message to be broadcast when the event is fired.           |
+| `BroadcastDuration` | `ushort`                                        | The duration of the broadcast.                                 |
+| `HintMessage`       | `string`                                        | The message to be shown as a hint when the event is fired.     |
+| `HintDuration`      | `float`                                         | The duration of the hint.                                      |
+| `DestroyAfterUse`   | `bool`                                          | Whether the item should be destroyed after use.                |
 
 **Example:**
+
+`CustomItemType: Item` uses the [`CustomItemType`](../enums/internal/customitemtype.md) enum. `event: Use` uses the [`ItemEvents`](../enums/internal/itemevents.md) enum.
 
 <pre class="language-yaml"><code class="lang-yaml"><strong>CustomItemType: Item
 </strong>CustomData:

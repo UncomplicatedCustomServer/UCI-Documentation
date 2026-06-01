@@ -7,7 +7,7 @@ Controls behavior for placing a custom item inside a map locker (e.g., rifle rac
 
 * `enable` — `bool` — Whether to attempt locker-based spawning.
 * `locker_type` — [`LockerType`](../enums/internal/lockertype.md) — Which locker/rack type to use (e.g., `RifleRack`).
-* `room` — `string` — Preferred room name where the locker is located. Default: `"HczWarhead"`.
+* `room` — [`RoomName`](../enums/external/roomname.md) — Preferred room name where the locker is located. Default: `"HczWarhead"`.
 * `zone` — [`FacilityZone`](../enums/external/facilityzone.md) (enum) — Preferred zone where the locker exists. Default: `HeavyContainment`.
 * [`chamber`](../enums/internal/lockerchambers/) — `string` — ChamberName within the locker.
 * `offset` — `Vector3` — An extra offset applied to the chosen locker position.
