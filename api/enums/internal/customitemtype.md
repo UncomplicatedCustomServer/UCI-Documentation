@@ -14,7 +14,7 @@ icon: sitemap
 | [`Item`](../../custom-data/item.md)                            | A generic custom item. No specific behavior is implied.         |
 | [`Keycard`](../../custom-data/keycard.md)                      | Functions as a keycard, allowing access to doors or systems.    |
 | [`Armor`](../../custom-data/armor.md)                          | Provides protection when worn, reducing incoming damage.        |
-| [`Weapon`](../../custom-data/weapon.md)                        | A standard weapon that deals damage.                            |
+| [`Weapon`](../../custom-data/weapon/)                          | A standard weapon that deals damage.                            |
 | [`Medikit`](../../custom-data/medikit.md)                      | A healing item that restores health when used.                  |
 | [`Painkillers`](../../custom-data/painkillers.md)              | Temporarily heals over time; commonly used for small HP boosts. |
 | [`Jailbird`](../../custom-data/jailbird.md)                    | SCP-style stun baton weapon. May apply shock effects.           |

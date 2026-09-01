@@ -32,6 +32,14 @@ layout:
 
 ***
 
+### What's New
+
+* Added CustomModel module <a href="../api/custommodules/custommodel.md" class="button secondary small">CustomModel</a>
+* Added ParameterModifiers to WeaponData <a href="../api/custom-data/weapon/" class="button secondary small">WeaponData</a>
+* Added ParameterObject <a href="../api/custom-data/weapon/parameterobject.md" class="button secondary small">ParameterObject</a>
+
+***
+
 {% hint style="info" %}
 As of version 4.0.0, UncomplicatedCustomItems (UCI) is fully based on LabAPI. The Exiled version only uses properties from Exiled when needed.
 {% endhint %}

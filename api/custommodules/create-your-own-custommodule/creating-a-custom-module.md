@@ -41,57 +41,18 @@ The `Name` Property is the identifier used in YAML configuration to reference th
 
 ***
 
-### Step 2: Declare Required Arguments
+### Step 2: Declare Arguments
 
 If your module needs configurable values, override `RequiredArguments`. These names map directly to the keys used in the item's YAML config:
 
 ```csharp
-public override List<string> RequiredArguments =>
-[
-    "MyFloat",
-    "MyInt",
-];
-
 public float MyFloat { get; set; }
 public int MyInt { get; set; }
 ```
 
 ***
 
-### Step 3: Parse Arguments in `OnAdded`
-
-`OnAdded` is called once when the module is attached to a summoned item. Use it to parse and store your arguments:
-
-```csharp
-public override void OnAdded(SummonedCustomItem item)
-{
-    foreach (Dictionary<object, object> args in Arguments)
-    {
-        if (!args.TryGetValue<float>("MyFloat", out var myFloat))
-        {
-            LogManager.Warn($"{CustomItem.Name} - MyFloat is not a valid float!");
-            return;
-        }
-
-        if (!args.TryGetValue<int>("MyInt", out var myInt))
-        {
-            LogManager.Warn($"{CustomItem.Name} - MyInt is not a valid int!");
-            return;
-        }
-
-        MyFloat = myFloat;
-        MyInt = myInt;
-    }
-}
-```
-
-{% hint style="info" %}
-Always validate and warn when an argument cannot be parsed. This helps server owners diagnose configuration mistakes quickly.
-{% endhint %}
-
-***
-
-### Step 4: Register and Unregister Events
+### Step 3: Register and Unregister Events
 
 Override `RegisterEvents` and `UnregisterEvents` To subscribe to your logic to game events:
 

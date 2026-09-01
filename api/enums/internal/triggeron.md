@@ -21,3 +21,5 @@ icon: check
 **OnHurt**
 
 **OnDoorInteracted**
+
+**OnInspected**
