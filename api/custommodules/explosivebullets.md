@@ -8,9 +8,12 @@ The `ExplosiveBullets` custom module transforms regular bullet impacts into expl
 
 ### Configuration
 
-| Value          | Description                                                                                               |
-| -------------- | --------------------------------------------------------------------------------------------------------- |
-| `DamageRadius` | The maximum radius (in game units) within which the triggered explosion will deal damage upon detonation. |
+| Value                    | Description                                                                                               |
+| ------------------------ | --------------------------------------------------------------------------------------------------------- |
+| `DamageRadius`           | The maximum radius (in game units) within which the triggered explosion will deal damage upon detonation. |
+| `SCPDamageMultiplier`    | The damage multiplier applied to scps.                                                                    |
+| `DoorDamageMultiplier`   | The damage multiplier applied to doors.                                                                   |
+| `PlayerDamageMultiplier` | The damage multiplier applied to non scp players                                                          |
 
 ### Example
 
@@ -18,4 +21,7 @@ The `ExplosiveBullets` custom module transforms regular bullet impacts into expl
 custom_modules:
   ExplosiveBullets:
   - DamageRadius: 5.0
+    SCPDamageMultiplier: 0.2
+    DoorDamageMultiplier: 0.5
+    PlayerDamageMultiplier: 0.2
 ```
