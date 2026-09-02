@@ -9,10 +9,9 @@ icon: suitcase-medical
 
 **Properties**
 
-| Property      | Type    | Description                                            |
-| ------------- | ------- | ------------------------------------------------------ |
-| `Health`      | `float` | The amount of health that will be regenerated.         |
-| `MoreThanMax` | `bool`  | Whether the value can surpass the player's max health. |
+| Property | Type    | Description                                    |
+| -------- | ------- | ---------------------------------------------- |
+| `Health` | `float` | The amount of health that will be regenerated. |
 
 **Example:**
 
@@ -20,5 +19,4 @@ icon: suitcase-medical
 CustomItemType: Medikit
 CustomData:
   health: 100.0
-  more_than_max: true
 ```

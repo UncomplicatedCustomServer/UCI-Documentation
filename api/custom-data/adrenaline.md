@@ -9,13 +9,14 @@ icon: syringe
 
 **Properties**
 
-| Property     | Type    | Description                                                      |
-| ------------ | ------- | ---------------------------------------------------------------- |
-| `Amount`     | `float` | The amount of Artificial Health Points (AHP) to give the player. |
-| `Decay`      | `float` | The decay speed of the AHP.                                      |
-| `Efficacy`   | `float` | The efficacy of the AHP.                                         |
-| `Sustain`    | `float` | The delay before the AHP starts to decay.                        |
-| `Persistant` | `bool`  | Whether the AHP should be persistent.                            |
+| Property      | Type    | Description                                                      |
+| ------------- | ------- | ---------------------------------------------------------------- |
+| `Amount`      | `float` | The amount of Artificial Health Points (AHP) to give the player. |
+| `Decay`       | `float` | The decay speed of the AHP.                                      |
+| `Efficacy`    | `float` | The efficacy of the AHP.                                         |
+| `Sustain`     | `float` | The delay before the AHP starts to decay.                        |
+| `Persistant`  | `bool`  | Whether the AHP should be persistent.                            |
+| `StaminaGain` | `float` | The amount of stamina to be gained after consuming.              |
 
 **Example:**
 
@@ -27,4 +28,5 @@ CustomData:
   efficacy: 0.8
   sustain: 10.0
   persistant: false
+  stamina_gain: 50
 ```
